@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "name": "notionx",
+  "version": "0.0.1",
+  "description": "notionx is a CLI tool that allows you to import markdown files, including those containing LaTeX math equations, into Notion.",
+  "bin": {
+    "notionx": "main.js"
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.2.6",
+    "@tryfabric/martian": "^1.2.4",
+    "commander": "^11.0.0"
+  }
+}
